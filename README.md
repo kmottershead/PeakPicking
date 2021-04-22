@@ -13,13 +13,36 @@ This web service can be run locally, where test files (.png) can be uploaded and
 1. python must be installed locally (https://www.python.org/downloads/) (python verison 3.8 was used in the creation of this Model and Web Service)
 2. pip must be installed and upgraded (normally comes packaged as part of python, upgrade cmd line is below)
 
-			pip install --upgrade pip
+		pip install --upgrade pip
 			
 3. Tensorflow (and thus Keras) must be installed locally (cmd line below)
 
-			pip install tensorflow
+		pip install tensorflow
 
 4. Flask must also be installed locally (cmd line below)
 
-	pip install Flask
-	
+		pip install Flask
+		
+# Downloading the Repo
+1. Download or Clone this repository locally to your C drive 
+
+
+#Starting the flask App
+1. Locate to to the folder in the repo containing the predict_app.py in cmd line
+
+		cd C:\PeakPickingRepo\PeakPicking Model
+		
+2. Set the FLASK_APP variable to be the predict_app.py file
+
+		set FLASK_APP=predict_app.py
+		
+3. Run the flask app ( a --host parameter here can be used to give others access to this web service but is not needed)
+
+		flask run
+		
+4. look for the following lines to appear in the cmd line log. If these appear the flask app is running successfully. 
+
+		* Loading Keras Model...
+		* Model Loaded!
+		* Running on http://[localhost]:5000/ (Press CTRL+C to quit)
+		
