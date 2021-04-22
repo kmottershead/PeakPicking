@@ -24,10 +24,10 @@ This web service can be run locally, where test files (.png) can be uploaded and
 		pip install Flask
 		
 # Downloading the Repo
-1. Download or Clone this repository locally to your C drive 
+1. Download or Clone this repository locally to your C:/ drive 
 
 
-#Starting the flask App
+# Starting the flask App
 1. Locate to to the folder in the repo containing the predict_app.py in cmd line
 
 		cd C:\PeakPickingRepo\PeakPicking Model
@@ -46,7 +46,7 @@ This web service can be run locally, where test files (.png) can be uploaded and
 		* Model Loaded!
 		* Running on http://[localhost]:5000/ (Press CTRL+C to quit)
 		
-#Using the Web Service
+# Using the Web Service
 
 1. To view the front end go to http://[localhost]:5000/static/predict
 2. Use the Choose file button to upload a .png ROI (ROI examples can be found in the Examples folder in this repo)
