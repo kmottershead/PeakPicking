@@ -8,7 +8,7 @@ The licensing of this repository can be found in the LICENSE file.
 
 This web service can be run locally, where test files (.png) can be uploaded and tested against the model. The will be assigned a probability of Peak, No Peak, and Further Investigation (FI). This README.md file describes how you can set this to run locally. 
 
-# Pre-Requisits
+# Prerequisite
 (All instructions are given for a Windows machine, linux and Mac has not been tested with this webservice and instruction may vary slightly) 
 1. python must be installed locally (https://www.python.org/downloads/) (python verison 3.8 was used in the creation of this Model and Web Service)
 2. pip must be installed and upgraded (normally comes packaged as part of python, upgrade cmd line is below)
