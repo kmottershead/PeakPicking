@@ -46,3 +46,10 @@ This web service can be run locally, where test files (.png) can be uploaded and
 		* Model Loaded!
 		* Running on http://[localhost]:5000/ (Press CTRL+C to quit)
 		
+#Using the Web Service
+
+1. To view the front end go to http://[localhost]:5000/static/predict
+2. Use the Choose file button to upload a .png ROI (ROI examples can be found in the Examples folder in this repo)
+4. wait for the image to load and all predictions to be set to 0
+3. Click the 'Predict' Button and wait for the Predictions to load 
+
