@@ -25,6 +25,7 @@ This web service can be run locally, where test files (.png) can be uploaded and
 		
 # Downloading the Repo
 1. Download or Clone this repository locally to your C:/ drive 
+2. Then copy the h5 file located in **king/PeakPicking Model/MobileNetPTModel.h5** and paste it into a new folder in your C Drive called models (eg. **C://models/MobileNetPTModel.h5**)
 
 
 # Starting the flask App
